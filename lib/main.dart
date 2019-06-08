@@ -71,7 +71,7 @@ class MyHomePage extends StatelessWidget {
             // rebuilds if the model is updated.
             Consumer<Counter>(
               builder: (context, counter, child) => Text(
-                    'Contador 1: ${counter.value1} \n Contador 2: ${counter.value2} ',
+                    'value1: ${counter.value1} \n value2: ${counter.value2} ',
                     style: TextStyle(color: Colors.blue, fontSize: 20.0),
                   ),
             ),
